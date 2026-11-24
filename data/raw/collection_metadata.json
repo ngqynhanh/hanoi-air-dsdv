@@ -1,0 +1,178 @@
+{
+  "retrieved_at_utc": "2026-11-17T04:50:10+00:00",
+  "period_utc": [
+    "2022-12-31",
+    "2026-10-31"
+  ],
+  "timezone_of_raw_timestamps": "GMT (UTC+0)",
+  "air_quality": {
+    "endpoint": "https://air-quality-api.open-meteo.com/v1/air-quality",
+    "source": "open-meteo-air-quality/CAMS-global",
+    "data_type": "modelled",
+    "variables": [
+      "pm2_5",
+      "pm10",
+      "carbon_monoxide",
+      "carbon_dioxide",
+      "nitrogen_dioxide",
+      "sulphur_dioxide",
+      "ozone",
+      "dust",
+      "aerosol_optical_depth",
+      "us_aqi"
+    ],
+    "units": {
+      "time": "iso8601",
+      "pm2_5": "μg/m³",
+      "pm10": "μg/m³",
+      "carbon_monoxide": "μg/m³",
+      "carbon_dioxide": "ppm",
+      "nitrogen_dioxide": "μg/m³",
+      "sulphur_dioxide": "μg/m³",
+      "ozone": "μg/m³",
+      "dust": "μg/m³",
+      "aerosol_optical_depth": "",
+      "us_aqi": "USAQI"
+    },
+    "cities": {
+      "Hanoi": {
+        "requested": {
+          "latitude": 21.0285,
+          "longitude": 105.8542
+        },
+        "grid_cell": {
+          "latitude": 21.0,
+          "longitude": 105.899994,
+          "elevation_m": 19.0
+        },
+        "rows": 33624,
+        "file": "air_quality_hanoi.csv"
+      },
+      "Ho Chi Minh City": {
+        "requested": {
+          "latitude": 10.8231,
+          "longitude": 106.6297
+        },
+        "grid_cell": {
+          "latitude": 10.800003,
+          "longitude": 106.600006,
+          "elevation_m": 6.0
+        },
+        "rows": 33624,
+        "file": "air_quality_ho_chi_minh_city.csv"
+      },
+      "Da Nang": {
+        "requested": {
+          "latitude": 16.0544,
+          "longitude": 108.2022
+        },
+        "grid_cell": {
+          "latitude": 16.099998,
+          "longitude": 108.20001,
+          "elevation_m": 6.0
+        },
+        "rows": 33624,
+        "file": "air_quality_da_nang.csv"
+      },
+      "Hai Phong": {
+        "requested": {
+          "latitude": 20.8449,
+          "longitude": 106.6881
+        },
+        "grid_cell": {
+          "latitude": 20.800003,
+          "longitude": 106.70001,
+          "elevation_m": 8.0
+        },
+        "rows": 33624,
+        "file": "air_quality_hai_phong.csv"
+      }
+    }
+  },
+  "weather": {
+    "endpoint": "https://archive-api.open-meteo.com/v1/archive",
+    "source": "open-meteo-archive/reanalysis-best-match",
+    "data_type": "modelled",
+    "variables": [
+      "temperature_2m",
+      "relative_humidity_2m",
+      "dew_point_2m",
+      "precipitation",
+      "surface_pressure",
+      "cloud_cover",
+      "wind_speed_10m",
+      "wind_direction_10m",
+      "wind_gusts_10m",
+      "shortwave_radiation",
+      "boundary_layer_height"
+    ],
+    "units": {
+      "time": "iso8601",
+      "temperature_2m": "°C",
+      "relative_humidity_2m": "%",
+      "dew_point_2m": "°C",
+      "precipitation": "mm",
+      "surface_pressure": "hPa",
+      "cloud_cover": "%",
+      "wind_speed_10m": "km/h",
+      "wind_direction_10m": "°",
+      "wind_gusts_10m": "km/h",
+      "shortwave_radiation": "W/m²",
+      "boundary_layer_height": "m"
+    },
+    "cities": {
+      "Hanoi": {
+        "requested": {
+          "latitude": 21.0285,
+          "longitude": 105.8542
+        },
+        "grid_cell": {
+          "latitude": 21.05448,
+          "longitude": 105.898476,
+          "elevation_m": 19.0
+        },
+        "rows": 33624,
+        "file": "weather_hanoi.csv"
+      },
+      "Ho Chi Minh City": {
+        "requested": {
+          "latitude": 10.8231,
+          "longitude": 106.6297
+        },
+        "grid_cell": {
+          "latitude": 10.790861,
+          "longitude": 106.6313,
+          "elevation_m": 6.0
+        },
+        "rows": 33624,
+        "file": "weather_ho_chi_minh_city.csv"
+      },
+      "Da Nang": {
+        "requested": {
+          "latitude": 16.0544,
+          "longitude": 108.2022
+        },
+        "grid_cell": {
+          "latitude": 16.063269,
+          "longitude": 108.23864,
+          "elevation_m": 6.0
+        },
+        "rows": 33624,
+        "file": "weather_da_nang.csv"
+      },
+      "Hai Phong": {
+        "requested": {
+          "latitude": 20.8449,
+          "longitude": 106.6881
+        },
+        "grid_cell": {
+          "latitude": 20.843584,
+          "longitude": 106.67004,
+          "elevation_m": 8.0
+        },
+        "rows": 33624,
+        "file": "weather_hai_phong.csv"
+      }
+    }
+  }
+}

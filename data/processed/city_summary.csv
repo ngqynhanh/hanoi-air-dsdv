@@ -1,0 +1,5 @@
+city,hours,pm2_5_n_obs,pm2_5_mean,pm2_5_median,pm2_5_max_hourly,days_above_who_24h_pct,hours_above_15ug_pct,worst_hour_of_day,best_hour_of_day,worst_calendar_month,best_calendar_month,worst_month,worst_month_mean,worst_day,worst_day_mean
+Hanoi,33600,33600,45.8,38.4,232.8,98.4,94.8,20,11,4,10,2025-01,71.4,2025-04-15,134.3
+Hai Phong,33600,33600,31.1,24.1,596.0,87.4,80.0,15,10,1,10,2023-02,61.0,2023-05-19,228.0
+Ho Chi Minh City,33600,33600,26.6,23.3,154.1,89.9,81.0,22,11,6,3,2025-06,49.4,2026-09-16,71.8
+Da Nang,33600,33600,19.1,17.1,149.9,64.7,60.0,12,18,4,10,2025-04,35.8,2025-04-26,79.3
