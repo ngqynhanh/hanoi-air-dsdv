@@ -1,0 +1,673 @@
+city,day_of_week,day_name,hour,mean_pm2_5,n_obs
+Da Nang,0,Monday,0,17.34,200
+Da Nang,0,Monday,1,17.33,200
+Da Nang,0,Monday,2,17.34,200
+Da Nang,0,Monday,3,17.5,200
+Da Nang,0,Monday,4,17.56,200
+Da Nang,0,Monday,5,17.72,200
+Da Nang,0,Monday,6,18.16,200
+Da Nang,0,Monday,7,18.62,200
+Da Nang,0,Monday,8,19.32,200
+Da Nang,0,Monday,9,19.93,200
+Da Nang,0,Monday,10,20.87,200
+Da Nang,0,Monday,11,21.97,200
+Da Nang,0,Monday,12,22.59,200
+Da Nang,0,Monday,13,22.51,200
+Da Nang,0,Monday,14,21.61,200
+Da Nang,0,Monday,15,20.1,200
+Da Nang,0,Monday,16,18.71,200
+Da Nang,0,Monday,17,17.72,200
+Da Nang,0,Monday,18,16.96,200
+Da Nang,0,Monday,19,17.68,200
+Da Nang,0,Monday,20,17.44,200
+Da Nang,0,Monday,21,17.2,200
+Da Nang,0,Monday,22,17.07,200
+Da Nang,0,Monday,23,16.84,200
+Da Nang,1,Tuesday,0,16.73,200
+Da Nang,1,Tuesday,1,16.85,200
+Da Nang,1,Tuesday,2,17.04,200
+Da Nang,1,Tuesday,3,17.33,200
+Da Nang,1,Tuesday,4,17.59,200
+Da Nang,1,Tuesday,5,17.82,200
+Da Nang,1,Tuesday,6,18.36,200
+Da Nang,1,Tuesday,7,19.13,200
+Da Nang,1,Tuesday,8,20.06,200
+Da Nang,1,Tuesday,9,20.31,200
+Da Nang,1,Tuesday,10,20.85,200
+Da Nang,1,Tuesday,11,21.92,200
+Da Nang,1,Tuesday,12,22.59,200
+Da Nang,1,Tuesday,13,22.47,200
+Da Nang,1,Tuesday,14,21.34,200
+Da Nang,1,Tuesday,15,19.69,200
+Da Nang,1,Tuesday,16,18.28,200
+Da Nang,1,Tuesday,17,17.31,200
+Da Nang,1,Tuesday,18,16.61,200
+Da Nang,1,Tuesday,19,17.1,200
+Da Nang,1,Tuesday,20,16.83,200
+Da Nang,1,Tuesday,21,16.87,200
+Da Nang,1,Tuesday,22,16.82,200
+Da Nang,1,Tuesday,23,16.72,200
+Da Nang,2,Wednesday,0,16.62,200
+Da Nang,2,Wednesday,1,16.77,200
+Da Nang,2,Wednesday,2,16.9,200
+Da Nang,2,Wednesday,3,16.98,200
+Da Nang,2,Wednesday,4,17.18,200
+Da Nang,2,Wednesday,5,17.38,200
+Da Nang,2,Wednesday,6,18.0,200
+Da Nang,2,Wednesday,7,18.95,200
+Da Nang,2,Wednesday,8,19.78,200
+Da Nang,2,Wednesday,9,20.32,200
+Da Nang,2,Wednesday,10,21.31,200
+Da Nang,2,Wednesday,11,22.49,200
+Da Nang,2,Wednesday,12,23.29,200
+Da Nang,2,Wednesday,13,23.17,200
+Da Nang,2,Wednesday,14,21.96,200
+Da Nang,2,Wednesday,15,20.26,200
+Da Nang,2,Wednesday,16,18.67,200
+Da Nang,2,Wednesday,17,17.56,200
+Da Nang,2,Wednesday,18,16.81,200
+Da Nang,2,Wednesday,19,17.0,200
+Da Nang,2,Wednesday,20,16.76,200
+Da Nang,2,Wednesday,21,16.78,200
+Da Nang,2,Wednesday,22,16.83,200
+Da Nang,2,Wednesday,23,16.91,200
+Da Nang,3,Thursday,0,16.97,200
+Da Nang,3,Thursday,1,17.11,200
+Da Nang,3,Thursday,2,17.2,200
+Da Nang,3,Thursday,3,17.25,200
+Da Nang,3,Thursday,4,17.33,200
+Da Nang,3,Thursday,5,17.5,200
+Da Nang,3,Thursday,6,18.01,200
+Da Nang,3,Thursday,7,18.77,200
+Da Nang,3,Thursday,8,19.87,200
+Da Nang,3,Thursday,9,20.62,200
+Da Nang,3,Thursday,10,21.8,200
+Da Nang,3,Thursday,11,23.31,200
+Da Nang,3,Thursday,12,24.38,200
+Da Nang,3,Thursday,13,24.44,200
+Da Nang,3,Thursday,14,23.28,200
+Da Nang,3,Thursday,15,21.39,200
+Da Nang,3,Thursday,16,19.62,200
+Da Nang,3,Thursday,17,18.3,200
+Da Nang,3,Thursday,18,17.52,200
+Da Nang,3,Thursday,19,17.75,200
+Da Nang,3,Thursday,20,17.48,200
+Da Nang,3,Thursday,21,17.46,200
+Da Nang,3,Thursday,22,17.52,200
+Da Nang,3,Thursday,23,17.51,200
+Da Nang,4,Friday,0,17.39,200
+Da Nang,4,Friday,1,17.37,200
+Da Nang,4,Friday,2,17.62,200
+Da Nang,4,Friday,3,17.88,200
+Da Nang,4,Friday,4,18.13,200
+Da Nang,4,Friday,5,18.3,200
+Da Nang,4,Friday,6,18.9,200
+Da Nang,4,Friday,7,19.58,200
+Da Nang,4,Friday,8,20.07,200
+Da Nang,4,Friday,9,20.37,200
+Da Nang,4,Friday,10,21.5,200
+Da Nang,4,Friday,11,22.96,200
+Da Nang,4,Friday,12,24.06,200
+Da Nang,4,Friday,13,24.02,200
+Da Nang,4,Friday,14,22.78,200
+Da Nang,4,Friday,15,20.97,200
+Da Nang,4,Friday,16,19.29,200
+Da Nang,4,Friday,17,18.2,200
+Da Nang,4,Friday,18,17.48,200
+Da Nang,4,Friday,19,17.66,200
+Da Nang,4,Friday,20,17.34,200
+Da Nang,4,Friday,21,17.27,200
+Da Nang,4,Friday,22,17.35,200
+Da Nang,4,Friday,23,17.39,200
+Da Nang,5,Saturday,0,17.4,200
+Da Nang,5,Saturday,1,17.47,200
+Da Nang,5,Saturday,2,17.85,200
+Da Nang,5,Saturday,3,18.3,200
+Da Nang,5,Saturday,4,18.55,200
+Da Nang,5,Saturday,5,18.86,200
+Da Nang,5,Saturday,6,19.61,200
+Da Nang,5,Saturday,7,20.06,200
+Da Nang,5,Saturday,8,21.11,200
+Da Nang,5,Saturday,9,21.96,200
+Da Nang,5,Saturday,10,23.03,200
+Da Nang,5,Saturday,11,24.26,200
+Da Nang,5,Saturday,12,25.2,200
+Da Nang,5,Saturday,13,25.08,200
+Da Nang,5,Saturday,14,23.35,200
+Da Nang,5,Saturday,15,21.11,200
+Da Nang,5,Saturday,16,19.27,200
+Da Nang,5,Saturday,17,17.96,200
+Da Nang,5,Saturday,18,17.0,200
+Da Nang,5,Saturday,19,18.25,200
+Da Nang,5,Saturday,20,18.06,200
+Da Nang,5,Saturday,21,17.95,200
+Da Nang,5,Saturday,22,17.9,200
+Da Nang,5,Saturday,23,17.69,200
+Da Nang,6,Sunday,0,17.48,200
+Da Nang,6,Sunday,1,17.43,200
+Da Nang,6,Sunday,2,17.3,200
+Da Nang,6,Sunday,3,17.45,200
+Da Nang,6,Sunday,4,17.61,200
+Da Nang,6,Sunday,5,17.97,200
+Da Nang,6,Sunday,6,18.73,200
+Da Nang,6,Sunday,7,19.65,200
+Da Nang,6,Sunday,8,20.42,200
+Da Nang,6,Sunday,9,20.91,200
+Da Nang,6,Sunday,10,21.73,200
+Da Nang,6,Sunday,11,22.55,200
+Da Nang,6,Sunday,12,23.0,200
+Da Nang,6,Sunday,13,22.83,200
+Da Nang,6,Sunday,14,21.74,200
+Da Nang,6,Sunday,15,20.14,200
+Da Nang,6,Sunday,16,18.8,200
+Da Nang,6,Sunday,17,17.8,200
+Da Nang,6,Sunday,18,17.0,200
+Da Nang,6,Sunday,19,18.33,200
+Da Nang,6,Sunday,20,18.02,200
+Da Nang,6,Sunday,21,17.81,200
+Da Nang,6,Sunday,22,17.69,200
+Da Nang,6,Sunday,23,17.54,200
+Hai Phong,0,Monday,0,30.97,200
+Hai Phong,0,Monday,1,31.27,200
+Hai Phong,0,Monday,2,31.83,200
+Hai Phong,0,Monday,3,32.31,200
+Hai Phong,0,Monday,4,32.65,200
+Hai Phong,0,Monday,5,32.94,200
+Hai Phong,0,Monday,6,33.57,200
+Hai Phong,0,Monday,7,32.28,200
+Hai Phong,0,Monday,8,28.95,200
+Hai Phong,0,Monday,9,26.89,200
+Hai Phong,0,Monday,10,25.99,200
+Hai Phong,0,Monday,11,26.8,200
+Hai Phong,0,Monday,12,28.98,200
+Hai Phong,0,Monday,13,31.26,200
+Hai Phong,0,Monday,14,32.82,200
+Hai Phong,0,Monday,15,32.9,200
+Hai Phong,0,Monday,16,31.61,200
+Hai Phong,0,Monday,17,30.02,200
+Hai Phong,0,Monday,18,29.64,200
+Hai Phong,0,Monday,19,30.71,200
+Hai Phong,0,Monday,20,31.06,200
+Hai Phong,0,Monday,21,31.2,200
+Hai Phong,0,Monday,22,31.59,200
+Hai Phong,0,Monday,23,31.78,200
+Hai Phong,1,Tuesday,0,31.37,200
+Hai Phong,1,Tuesday,1,31.17,200
+Hai Phong,1,Tuesday,2,31.05,200
+Hai Phong,1,Tuesday,3,31.17,200
+Hai Phong,1,Tuesday,4,31.46,200
+Hai Phong,1,Tuesday,5,31.63,200
+Hai Phong,1,Tuesday,6,32.31,200
+Hai Phong,1,Tuesday,7,30.89,200
+Hai Phong,1,Tuesday,8,28.4,200
+Hai Phong,1,Tuesday,9,25.7,200
+Hai Phong,1,Tuesday,10,25.37,200
+Hai Phong,1,Tuesday,11,26.47,200
+Hai Phong,1,Tuesday,12,28.48,200
+Hai Phong,1,Tuesday,13,31.24,200
+Hai Phong,1,Tuesday,14,33.13,200
+Hai Phong,1,Tuesday,15,33.45,200
+Hai Phong,1,Tuesday,16,32.48,200
+Hai Phong,1,Tuesday,17,31.39,200
+Hai Phong,1,Tuesday,18,31.28,200
+Hai Phong,1,Tuesday,19,32.41,200
+Hai Phong,1,Tuesday,20,32.26,200
+Hai Phong,1,Tuesday,21,32.02,200
+Hai Phong,1,Tuesday,22,32.11,200
+Hai Phong,1,Tuesday,23,31.76,200
+Hai Phong,2,Wednesday,0,30.99,200
+Hai Phong,2,Wednesday,1,30.75,200
+Hai Phong,2,Wednesday,2,30.91,200
+Hai Phong,2,Wednesday,3,31.1,200
+Hai Phong,2,Wednesday,4,31.14,200
+Hai Phong,2,Wednesday,5,31.2,200
+Hai Phong,2,Wednesday,6,32.02,200
+Hai Phong,2,Wednesday,7,30.1,200
+Hai Phong,2,Wednesday,8,27.26,200
+Hai Phong,2,Wednesday,9,24.99,200
+Hai Phong,2,Wednesday,10,24.73,200
+Hai Phong,2,Wednesday,11,26.34,200
+Hai Phong,2,Wednesday,12,29.16,200
+Hai Phong,2,Wednesday,13,32.01,200
+Hai Phong,2,Wednesday,14,33.9,200
+Hai Phong,2,Wednesday,15,34.15,200
+Hai Phong,2,Wednesday,16,32.93,200
+Hai Phong,2,Wednesday,17,31.61,200
+Hai Phong,2,Wednesday,18,31.26,200
+Hai Phong,2,Wednesday,19,32.0,200
+Hai Phong,2,Wednesday,20,32.18,200
+Hai Phong,2,Wednesday,21,31.86,200
+Hai Phong,2,Wednesday,22,31.91,200
+Hai Phong,2,Wednesday,23,31.77,200
+Hai Phong,3,Thursday,0,31.4,200
+Hai Phong,3,Thursday,1,31.57,200
+Hai Phong,3,Thursday,2,31.89,200
+Hai Phong,3,Thursday,3,31.99,200
+Hai Phong,3,Thursday,4,31.94,200
+Hai Phong,3,Thursday,5,31.92,200
+Hai Phong,3,Thursday,6,32.49,200
+Hai Phong,3,Thursday,7,30.29,200
+Hai Phong,3,Thursday,8,27.19,200
+Hai Phong,3,Thursday,9,25.57,200
+Hai Phong,3,Thursday,10,25.5,200
+Hai Phong,3,Thursday,11,26.99,200
+Hai Phong,3,Thursday,12,29.22,200
+Hai Phong,3,Thursday,13,31.67,200
+Hai Phong,3,Thursday,14,33.66,200
+Hai Phong,3,Thursday,15,34.02,200
+Hai Phong,3,Thursday,16,32.68,200
+Hai Phong,3,Thursday,17,31.61,200
+Hai Phong,3,Thursday,18,31.71,200
+Hai Phong,3,Thursday,19,33.36,200
+Hai Phong,3,Thursday,20,33.44,200
+Hai Phong,3,Thursday,21,33.43,200
+Hai Phong,3,Thursday,22,33.4,200
+Hai Phong,3,Thursday,23,33.27,200
+Hai Phong,4,Friday,0,32.72,200
+Hai Phong,4,Friday,1,32.62,200
+Hai Phong,4,Friday,2,32.48,200
+Hai Phong,4,Friday,3,32.24,200
+Hai Phong,4,Friday,4,32.1,200
+Hai Phong,4,Friday,5,32.1,200
+Hai Phong,4,Friday,6,32.37,200
+Hai Phong,4,Friday,7,30.59,200
+Hai Phong,4,Friday,8,27.19,200
+Hai Phong,4,Friday,9,25.03,200
+Hai Phong,4,Friday,10,25.17,200
+Hai Phong,4,Friday,11,26.68,200
+Hai Phong,4,Friday,12,29.24,200
+Hai Phong,4,Friday,13,32.42,200
+Hai Phong,4,Friday,14,33.68,200
+Hai Phong,4,Friday,15,34.75,200
+Hai Phong,4,Friday,16,34.51,200
+Hai Phong,4,Friday,17,32.85,200
+Hai Phong,4,Friday,18,32.12,200
+Hai Phong,4,Friday,19,32.14,200
+Hai Phong,4,Friday,20,31.69,200
+Hai Phong,4,Friday,21,31.07,200
+Hai Phong,4,Friday,22,31.17,200
+Hai Phong,4,Friday,23,31.04,200
+Hai Phong,5,Saturday,0,30.56,200
+Hai Phong,5,Saturday,1,30.8,200
+Hai Phong,5,Saturday,2,31.19,200
+Hai Phong,5,Saturday,3,31.47,200
+Hai Phong,5,Saturday,4,31.62,200
+Hai Phong,5,Saturday,5,31.62,200
+Hai Phong,5,Saturday,6,31.92,200
+Hai Phong,5,Saturday,7,29.98,200
+Hai Phong,5,Saturday,8,26.86,200
+Hai Phong,5,Saturday,9,24.88,200
+Hai Phong,5,Saturday,10,24.83,200
+Hai Phong,5,Saturday,11,26.59,200
+Hai Phong,5,Saturday,12,29.46,200
+Hai Phong,5,Saturday,13,32.22,200
+Hai Phong,5,Saturday,14,34.18,200
+Hai Phong,5,Saturday,15,34.39,200
+Hai Phong,5,Saturday,16,32.94,200
+Hai Phong,5,Saturday,17,31.6,200
+Hai Phong,5,Saturday,18,31.18,200
+Hai Phong,5,Saturday,19,32.77,200
+Hai Phong,5,Saturday,20,32.89,200
+Hai Phong,5,Saturday,21,32.99,200
+Hai Phong,5,Saturday,22,33.54,200
+Hai Phong,5,Saturday,23,33.83,200
+Hai Phong,6,Sunday,0,33.86,200
+Hai Phong,6,Sunday,1,33.88,200
+Hai Phong,6,Sunday,2,34.05,200
+Hai Phong,6,Sunday,3,34.21,200
+Hai Phong,6,Sunday,4,34.11,200
+Hai Phong,6,Sunday,5,34.18,200
+Hai Phong,6,Sunday,6,34.59,200
+Hai Phong,6,Sunday,7,32.48,200
+Hai Phong,6,Sunday,8,28.72,200
+Hai Phong,6,Sunday,9,25.97,200
+Hai Phong,6,Sunday,10,25.68,200
+Hai Phong,6,Sunday,11,27.34,200
+Hai Phong,6,Sunday,12,29.88,200
+Hai Phong,6,Sunday,13,32.52,200
+Hai Phong,6,Sunday,14,33.96,200
+Hai Phong,6,Sunday,15,34.04,200
+Hai Phong,6,Sunday,16,32.65,200
+Hai Phong,6,Sunday,17,31.35,200
+Hai Phong,6,Sunday,18,30.97,200
+Hai Phong,6,Sunday,19,31.77,200
+Hai Phong,6,Sunday,20,31.46,200
+Hai Phong,6,Sunday,21,31.1,200
+Hai Phong,6,Sunday,22,31.29,200
+Hai Phong,6,Sunday,23,31.34,200
+Hanoi,0,Monday,0,54.42,200
+Hanoi,0,Monday,1,52.87,200
+Hanoi,0,Monday,2,51.67,200
+Hanoi,0,Monday,3,50.7,200
+Hanoi,0,Monday,4,49.59,200
+Hanoi,0,Monday,5,48.32,200
+Hanoi,0,Monday,6,48.17,200
+Hanoi,0,Monday,7,47.13,200
+Hanoi,0,Monday,8,43.48,200
+Hanoi,0,Monday,9,38.59,200
+Hanoi,0,Monday,10,36.0,200
+Hanoi,0,Monday,11,35.45,200
+Hanoi,0,Monday,12,36.11,200
+Hanoi,0,Monday,13,36.93,200
+Hanoi,0,Monday,14,37.64,200
+Hanoi,0,Monday,15,38.02,200
+Hanoi,0,Monday,16,38.45,200
+Hanoi,0,Monday,17,41.27,200
+Hanoi,0,Monday,18,48.36,200
+Hanoi,0,Monday,19,55.62,200
+Hanoi,0,Monday,20,57.76,200
+Hanoi,0,Monday,21,57.52,200
+Hanoi,0,Monday,22,57.23,200
+Hanoi,0,Monday,23,55.59,200
+Hanoi,1,Tuesday,0,52.76,200
+Hanoi,1,Tuesday,1,50.82,200
+Hanoi,1,Tuesday,2,49.36,200
+Hanoi,1,Tuesday,3,48.21,200
+Hanoi,1,Tuesday,4,47.38,200
+Hanoi,1,Tuesday,5,46.63,200
+Hanoi,1,Tuesday,6,47.02,200
+Hanoi,1,Tuesday,7,46.84,200
+Hanoi,1,Tuesday,8,43.37,200
+Hanoi,1,Tuesday,9,39.11,200
+Hanoi,1,Tuesday,10,36.8,200
+Hanoi,1,Tuesday,11,36.55,200
+Hanoi,1,Tuesday,12,37.11,200
+Hanoi,1,Tuesday,13,37.77,200
+Hanoi,1,Tuesday,14,38.39,200
+Hanoi,1,Tuesday,15,38.66,200
+Hanoi,1,Tuesday,16,39.13,200
+Hanoi,1,Tuesday,17,42.27,200
+Hanoi,1,Tuesday,18,49.52,200
+Hanoi,1,Tuesday,19,56.78,200
+Hanoi,1,Tuesday,20,59.24,200
+Hanoi,1,Tuesday,21,58.81,200
+Hanoi,1,Tuesday,22,58.51,200
+Hanoi,1,Tuesday,23,56.94,200
+Hanoi,2,Wednesday,0,53.96,200
+Hanoi,2,Wednesday,1,51.98,200
+Hanoi,2,Wednesday,2,50.08,200
+Hanoi,2,Wednesday,3,48.17,200
+Hanoi,2,Wednesday,4,46.62,200
+Hanoi,2,Wednesday,5,45.77,200
+Hanoi,2,Wednesday,6,45.97,200
+Hanoi,2,Wednesday,7,45.12,200
+Hanoi,2,Wednesday,8,41.44,200
+Hanoi,2,Wednesday,9,37.55,200
+Hanoi,2,Wednesday,10,35.73,200
+Hanoi,2,Wednesday,11,35.44,200
+Hanoi,2,Wednesday,12,35.93,200
+Hanoi,2,Wednesday,13,36.61,200
+Hanoi,2,Wednesday,14,37.07,200
+Hanoi,2,Wednesday,15,37.49,200
+Hanoi,2,Wednesday,16,37.76,200
+Hanoi,2,Wednesday,17,40.68,200
+Hanoi,2,Wednesday,18,48.06,200
+Hanoi,2,Wednesday,19,56.34,200
+Hanoi,2,Wednesday,20,59.64,200
+Hanoi,2,Wednesday,21,60.02,200
+Hanoi,2,Wednesday,22,59.89,200
+Hanoi,2,Wednesday,23,58.62,200
+Hanoi,3,Thursday,0,55.92,200
+Hanoi,3,Thursday,1,53.74,200
+Hanoi,3,Thursday,2,51.46,200
+Hanoi,3,Thursday,3,49.91,200
+Hanoi,3,Thursday,4,48.9,200
+Hanoi,3,Thursday,5,48.04,200
+Hanoi,3,Thursday,6,48.75,200
+Hanoi,3,Thursday,7,48.72,200
+Hanoi,3,Thursday,8,44.1,200
+Hanoi,3,Thursday,9,39.5,200
+Hanoi,3,Thursday,10,36.92,200
+Hanoi,3,Thursday,11,35.9,200
+Hanoi,3,Thursday,12,36.03,200
+Hanoi,3,Thursday,13,36.66,200
+Hanoi,3,Thursday,14,37.18,200
+Hanoi,3,Thursday,15,37.24,200
+Hanoi,3,Thursday,16,37.59,200
+Hanoi,3,Thursday,17,40.38,200
+Hanoi,3,Thursday,18,47.2,200
+Hanoi,3,Thursday,19,55.14,200
+Hanoi,3,Thursday,20,57.94,200
+Hanoi,3,Thursday,21,58.13,200
+Hanoi,3,Thursday,22,58.01,200
+Hanoi,3,Thursday,23,56.78,200
+Hanoi,4,Friday,0,54.08,200
+Hanoi,4,Friday,1,52.04,200
+Hanoi,4,Friday,2,49.9,200
+Hanoi,4,Friday,3,48.33,200
+Hanoi,4,Friday,4,47.12,200
+Hanoi,4,Friday,5,46.36,200
+Hanoi,4,Friday,6,46.86,200
+Hanoi,4,Friday,7,47.53,200
+Hanoi,4,Friday,8,43.42,200
+Hanoi,4,Friday,9,38.6,200
+Hanoi,4,Friday,10,36.03,200
+Hanoi,4,Friday,11,34.96,200
+Hanoi,4,Friday,12,35.07,200
+Hanoi,4,Friday,13,35.62,200
+Hanoi,4,Friday,14,36.06,200
+Hanoi,4,Friday,15,36.39,200
+Hanoi,4,Friday,16,36.9,200
+Hanoi,4,Friday,17,40.32,200
+Hanoi,4,Friday,18,47.12,200
+Hanoi,4,Friday,19,53.58,200
+Hanoi,4,Friday,20,54.75,200
+Hanoi,4,Friday,21,53.94,200
+Hanoi,4,Friday,22,53.78,200
+Hanoi,4,Friday,23,53.02,200
+Hanoi,5,Saturday,0,51.08,200
+Hanoi,5,Saturday,1,49.87,200
+Hanoi,5,Saturday,2,48.75,200
+Hanoi,5,Saturday,3,47.72,200
+Hanoi,5,Saturday,4,46.74,200
+Hanoi,5,Saturday,5,46.02,200
+Hanoi,5,Saturday,6,46.6,200
+Hanoi,5,Saturday,7,46.46,200
+Hanoi,5,Saturday,8,41.98,200
+Hanoi,5,Saturday,9,37.35,200
+Hanoi,5,Saturday,10,35.04,200
+Hanoi,5,Saturday,11,34.35,200
+Hanoi,5,Saturday,12,34.49,200
+Hanoi,5,Saturday,13,34.86,200
+Hanoi,5,Saturday,14,35.1,200
+Hanoi,5,Saturday,15,35.03,200
+Hanoi,5,Saturday,16,35.07,200
+Hanoi,5,Saturday,17,38.21,200
+Hanoi,5,Saturday,18,44.86,200
+Hanoi,5,Saturday,19,53.11,200
+Hanoi,5,Saturday,20,55.6,200
+Hanoi,5,Saturday,21,55.67,200
+Hanoi,5,Saturday,22,55.79,200
+Hanoi,5,Saturday,23,55.27,200
+Hanoi,6,Sunday,0,53.28,200
+Hanoi,6,Sunday,1,51.67,200
+Hanoi,6,Sunday,2,50.53,200
+Hanoi,6,Sunday,3,49.52,200
+Hanoi,6,Sunday,4,48.28,200
+Hanoi,6,Sunday,5,47.29,200
+Hanoi,6,Sunday,6,47.24,200
+Hanoi,6,Sunday,7,47.07,200
+Hanoi,6,Sunday,8,42.84,200
+Hanoi,6,Sunday,9,37.76,200
+Hanoi,6,Sunday,10,34.95,200
+Hanoi,6,Sunday,11,34.12,200
+Hanoi,6,Sunday,12,34.51,200
+Hanoi,6,Sunday,13,35.02,200
+Hanoi,6,Sunday,14,35.51,200
+Hanoi,6,Sunday,15,35.68,200
+Hanoi,6,Sunday,16,36.11,200
+Hanoi,6,Sunday,17,39.44,200
+Hanoi,6,Sunday,18,46.57,200
+Hanoi,6,Sunday,19,53.98,200
+Hanoi,6,Sunday,20,56.68,200
+Hanoi,6,Sunday,21,57.16,200
+Hanoi,6,Sunday,22,57.59,200
+Hanoi,6,Sunday,23,56.62,200
+Ho Chi Minh City,0,Monday,0,29.94,200
+Ho Chi Minh City,0,Monday,1,29.27,200
+Ho Chi Minh City,0,Monday,2,28.64,200
+Ho Chi Minh City,0,Monday,3,28.05,200
+Ho Chi Minh City,0,Monday,4,27.94,200
+Ho Chi Minh City,0,Monday,5,28.18,200
+Ho Chi Minh City,0,Monday,6,29.51,200
+Ho Chi Minh City,0,Monday,7,29.34,200
+Ho Chi Minh City,0,Monday,8,25.65,200
+Ho Chi Minh City,0,Monday,9,22.72,200
+Ho Chi Minh City,0,Monday,10,21.6,200
+Ho Chi Minh City,0,Monday,11,21.34,200
+Ho Chi Minh City,0,Monday,12,21.5,200
+Ho Chi Minh City,0,Monday,13,21.77,200
+Ho Chi Minh City,0,Monday,14,22.27,200
+Ho Chi Minh City,0,Monday,15,22.19,200
+Ho Chi Minh City,0,Monday,16,22.15,200
+Ho Chi Minh City,0,Monday,17,23.21,200
+Ho Chi Minh City,0,Monday,18,26.07,200
+Ho Chi Minh City,0,Monday,19,32.62,200
+Ho Chi Minh City,0,Monday,20,32.15,200
+Ho Chi Minh City,0,Monday,21,32.14,200
+Ho Chi Minh City,0,Monday,22,32.57,200
+Ho Chi Minh City,0,Monday,23,32.2,200
+Ho Chi Minh City,1,Tuesday,0,30.59,200
+Ho Chi Minh City,1,Tuesday,1,29.17,200
+Ho Chi Minh City,1,Tuesday,2,28.1,200
+Ho Chi Minh City,1,Tuesday,3,27.64,200
+Ho Chi Minh City,1,Tuesday,4,27.72,200
+Ho Chi Minh City,1,Tuesday,5,28.26,200
+Ho Chi Minh City,1,Tuesday,6,29.99,200
+Ho Chi Minh City,1,Tuesday,7,29.28,200
+Ho Chi Minh City,1,Tuesday,8,25.65,200
+Ho Chi Minh City,1,Tuesday,9,23.23,200
+Ho Chi Minh City,1,Tuesday,10,22.22,200
+Ho Chi Minh City,1,Tuesday,11,22.21,200
+Ho Chi Minh City,1,Tuesday,12,22.4,200
+Ho Chi Minh City,1,Tuesday,13,22.83,200
+Ho Chi Minh City,1,Tuesday,14,23.02,200
+Ho Chi Minh City,1,Tuesday,15,23.04,200
+Ho Chi Minh City,1,Tuesday,16,22.92,200
+Ho Chi Minh City,1,Tuesday,17,23.81,200
+Ho Chi Minh City,1,Tuesday,18,26.68,200
+Ho Chi Minh City,1,Tuesday,19,32.83,200
+Ho Chi Minh City,1,Tuesday,20,33.08,200
+Ho Chi Minh City,1,Tuesday,21,32.97,200
+Ho Chi Minh City,1,Tuesday,22,33.37,200
+Ho Chi Minh City,1,Tuesday,23,32.47,200
+Ho Chi Minh City,2,Wednesday,0,30.66,200
+Ho Chi Minh City,2,Wednesday,1,29.2,200
+Ho Chi Minh City,2,Wednesday,2,28.48,200
+Ho Chi Minh City,2,Wednesday,3,28.34,200
+Ho Chi Minh City,2,Wednesday,4,28.47,200
+Ho Chi Minh City,2,Wednesday,5,28.95,200
+Ho Chi Minh City,2,Wednesday,6,30.81,200
+Ho Chi Minh City,2,Wednesday,7,30.53,200
+Ho Chi Minh City,2,Wednesday,8,26.36,200
+Ho Chi Minh City,2,Wednesday,9,23.32,200
+Ho Chi Minh City,2,Wednesday,10,22.06,200
+Ho Chi Minh City,2,Wednesday,11,21.83,200
+Ho Chi Minh City,2,Wednesday,12,22.05,200
+Ho Chi Minh City,2,Wednesday,13,22.42,200
+Ho Chi Minh City,2,Wednesday,14,22.75,200
+Ho Chi Minh City,2,Wednesday,15,22.78,200
+Ho Chi Minh City,2,Wednesday,16,22.68,200
+Ho Chi Minh City,2,Wednesday,17,23.46,200
+Ho Chi Minh City,2,Wednesday,18,26.21,200
+Ho Chi Minh City,2,Wednesday,19,31.39,200
+Ho Chi Minh City,2,Wednesday,20,31.52,200
+Ho Chi Minh City,2,Wednesday,21,31.16,200
+Ho Chi Minh City,2,Wednesday,22,31.01,200
+Ho Chi Minh City,2,Wednesday,23,30.41,200
+Ho Chi Minh City,3,Thursday,0,28.84,200
+Ho Chi Minh City,3,Thursday,1,27.82,200
+Ho Chi Minh City,3,Thursday,2,27.27,200
+Ho Chi Minh City,3,Thursday,3,27.16,200
+Ho Chi Minh City,3,Thursday,4,27.12,200
+Ho Chi Minh City,3,Thursday,5,27.35,200
+Ho Chi Minh City,3,Thursday,6,28.89,200
+Ho Chi Minh City,3,Thursday,7,28.59,200
+Ho Chi Minh City,3,Thursday,8,25.13,200
+Ho Chi Minh City,3,Thursday,9,22.45,200
+Ho Chi Minh City,3,Thursday,10,21.11,200
+Ho Chi Minh City,3,Thursday,11,20.84,200
+Ho Chi Minh City,3,Thursday,12,21.12,200
+Ho Chi Minh City,3,Thursday,13,21.47,200
+Ho Chi Minh City,3,Thursday,14,21.75,200
+Ho Chi Minh City,3,Thursday,15,21.82,200
+Ho Chi Minh City,3,Thursday,16,21.86,200
+Ho Chi Minh City,3,Thursday,17,22.78,200
+Ho Chi Minh City,3,Thursday,18,25.66,200
+Ho Chi Minh City,3,Thursday,19,30.02,200
+Ho Chi Minh City,3,Thursday,20,30.02,200
+Ho Chi Minh City,3,Thursday,21,30.09,200
+Ho Chi Minh City,3,Thursday,22,30.43,200
+Ho Chi Minh City,3,Thursday,23,29.85,200
+Ho Chi Minh City,4,Friday,0,28.15,200
+Ho Chi Minh City,4,Friday,1,27.03,200
+Ho Chi Minh City,4,Friday,2,26.54,200
+Ho Chi Minh City,4,Friday,3,26.62,200
+Ho Chi Minh City,4,Friday,4,26.84,200
+Ho Chi Minh City,4,Friday,5,27.47,200
+Ho Chi Minh City,4,Friday,6,29.32,200
+Ho Chi Minh City,4,Friday,7,29.05,200
+Ho Chi Minh City,4,Friday,8,25.04,200
+Ho Chi Minh City,4,Friday,9,22.47,200
+Ho Chi Minh City,4,Friday,10,21.36,200
+Ho Chi Minh City,4,Friday,11,21.22,200
+Ho Chi Minh City,4,Friday,12,21.62,200
+Ho Chi Minh City,4,Friday,13,22.07,200
+Ho Chi Minh City,4,Friday,14,22.43,200
+Ho Chi Minh City,4,Friday,15,22.54,200
+Ho Chi Minh City,4,Friday,16,22.56,200
+Ho Chi Minh City,4,Friday,17,23.43,200
+Ho Chi Minh City,4,Friday,18,26.45,200
+Ho Chi Minh City,4,Friday,19,31.16,200
+Ho Chi Minh City,4,Friday,20,31.18,200
+Ho Chi Minh City,4,Friday,21,30.98,200
+Ho Chi Minh City,4,Friday,22,30.91,200
+Ho Chi Minh City,4,Friday,23,30.43,200
+Ho Chi Minh City,5,Saturday,0,29.14,200
+Ho Chi Minh City,5,Saturday,1,28.25,200
+Ho Chi Minh City,5,Saturday,2,27.68,200
+Ho Chi Minh City,5,Saturday,3,27.48,200
+Ho Chi Minh City,5,Saturday,4,27.51,200
+Ho Chi Minh City,5,Saturday,5,27.88,200
+Ho Chi Minh City,5,Saturday,6,29.71,200
+Ho Chi Minh City,5,Saturday,7,29.79,200
+Ho Chi Minh City,5,Saturday,8,25.68,200
+Ho Chi Minh City,5,Saturday,9,22.79,200
+Ho Chi Minh City,5,Saturday,10,21.56,200
+Ho Chi Minh City,5,Saturday,11,21.51,200
+Ho Chi Minh City,5,Saturday,12,21.83,200
+Ho Chi Minh City,5,Saturday,13,22.41,200
+Ho Chi Minh City,5,Saturday,14,23.02,200
+Ho Chi Minh City,5,Saturday,15,23.11,200
+Ho Chi Minh City,5,Saturday,16,23.02,200
+Ho Chi Minh City,5,Saturday,17,23.72,200
+Ho Chi Minh City,5,Saturday,18,26.28,200
+Ho Chi Minh City,5,Saturday,19,31.28,200
+Ho Chi Minh City,5,Saturday,20,31.2,200
+Ho Chi Minh City,5,Saturday,21,31.16,200
+Ho Chi Minh City,5,Saturday,22,31.63,200
+Ho Chi Minh City,5,Saturday,23,31.56,200
+Ho Chi Minh City,6,Sunday,0,30.6,200
+Ho Chi Minh City,6,Sunday,1,29.77,200
+Ho Chi Minh City,6,Sunday,2,29.13,200
+Ho Chi Minh City,6,Sunday,3,28.9,200
+Ho Chi Minh City,6,Sunday,4,28.75,200
+Ho Chi Minh City,6,Sunday,5,29.31,200
+Ho Chi Minh City,6,Sunday,6,31.09,200
+Ho Chi Minh City,6,Sunday,7,29.69,200
+Ho Chi Minh City,6,Sunday,8,25.43,200
+Ho Chi Minh City,6,Sunday,9,22.34,200
+Ho Chi Minh City,6,Sunday,10,21.11,200
+Ho Chi Minh City,6,Sunday,11,21.1,200
+Ho Chi Minh City,6,Sunday,12,21.54,200
+Ho Chi Minh City,6,Sunday,13,22.03,200
+Ho Chi Minh City,6,Sunday,14,22.37,200
+Ho Chi Minh City,6,Sunday,15,22.24,200
+Ho Chi Minh City,6,Sunday,16,21.94,200
+Ho Chi Minh City,6,Sunday,17,22.96,200
+Ho Chi Minh City,6,Sunday,18,25.7,200
+Ho Chi Minh City,6,Sunday,19,30.8,200
+Ho Chi Minh City,6,Sunday,20,31.2,200
+Ho Chi Minh City,6,Sunday,21,31.33,200
+Ho Chi Minh City,6,Sunday,22,31.63,200
+Ho Chi Minh City,6,Sunday,23,31.22,200

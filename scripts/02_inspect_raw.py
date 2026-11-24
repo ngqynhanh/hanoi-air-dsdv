@@ -1,0 +1,127 @@
+"""Week 1 - Inspect the raw datasets and write docs/data_inspection_summary.md.
+
+Checks: columns, dtypes, units, timestamp format/range/gaps, missing values,
+duplicates, and unusual values (out-of-range, extreme highs).
+Run:  python scripts/02_inspect_raw.py
+"""
+import json
+
+import pandas as pd
+
+import config as C
+
+
+def load(kind: str) -> pd.DataFrame:
+    files = sorted(C.RAW_DIR.glob(f"{kind}_*.csv"))
+    return pd.concat([pd.read_csv(f) for f in files], ignore_index=True)
+
+
+def md_table(df: pd.DataFrame) -> str:
+    return df.to_markdown(index=False, floatfmt=".2f")
+
+
+def inspect(kind: str, variables: list, units: dict) -> str:
+    df = load(kind)
+    out = [f"## {kind.replace('_', ' ').title()} (raw)\n"]
+    out.append(f"- Rows: **{len(df):,}**, columns: **{df.shape[1]}**")
+    out.append(f"- Columns: `{', '.join(df.columns)}`")
+
+    # Timestamps
+    t = pd.to_datetime(df["time"], format="%Y-%m-%dT%H:%M", errors="coerce")
+    out.append(f"- Timestamp format: ISO 8601 `YYYY-MM-DDTHH:MM`, timezone GMT (UTC+0); "
+               f"unparseable timestamps: **{int(t.isna().sum())}**")
+    out.append(f"- Range (UTC): {t.min()} to {t.max()}")
+    dup = int(df.duplicated(["city", "time"]).sum())
+    out.append(f"- Duplicate (city, time) rows: **{dup}**; fully duplicated rows: "
+               f"**{int(df.duplicated().sum())}**")
+
+    rows = []
+    for city, g in df.groupby("city", sort=False):
+        tt = pd.to_datetime(g["time"])
+        expected = pd.date_range(tt.min(), tt.max(), freq="h")
+        rows.append({"city": city, "rows": len(g), "expected_hours": len(expected),
+                     "missing_timestamps": len(expected.difference(tt)),
+                     "non_hourly_steps": int((tt.diff().dropna() != pd.Timedelta("1h")).sum())})
+    out.append("\n**Timestamp completeness per city**\n\n" + md_table(pd.DataFrame(rows)))
+
+    # Variable overview
+    rows = []
+    for v in variables:
+        s = df[v]
+        lo, hi = C.VALID_RANGES[v]
+        if units.get(v) == "km/h":  # valid ranges are defined in m/s
+            lo, hi = lo * 3.6, hi * 3.6
+        rows.append({
+            "variable": v, "dtype": str(s.dtype), "raw_unit": units.get(v, ""),
+            "missing": int(s.isna().sum()), "missing_%": 100 * s.isna().mean(),
+            "min": s.min(), "median": s.median(), "mean": s.mean(), "max": s.max(),
+            "out_of_range": int(((s < lo) | (s > hi)).sum()),
+            "zeros": int((s == 0).sum()),
+        })
+    out.append("\n**Variables: units, missing values and value ranges**\n\n"
+               + md_table(pd.DataFrame(rows)))
+
+    # Missing values by city
+    miss = (df.groupby("city", sort=False)[variables]
+              .apply(lambda g: g.isna().mean() * 100).round(2))
+    miss = miss.loc[:, (miss > 0).any()]
+    if not miss.empty and miss.shape[1]:
+        out.append("\n**Missing values by city (% of rows; only variables with gaps)**\n\n"
+                   + md_table(miss.reset_index()))
+        # When do the gaps occur?
+        for v in miss.columns:
+            g = df.loc[df[v].isna(), "time"]
+            first_valid = df.loc[df[v].notna(), "time"].min()
+            out.append(f"- `{v}`: missing between {g.min()} and {g.max()} (UTC); "
+                       f"first non-missing value at {first_valid}")
+    else:
+        out.append("\nNo missing values in any variable.")
+
+    # Unusual high values (review, not removal)
+    rows = []
+    for v in [x for x in variables if x in C.OUTLIER_VARS]:
+        for city, g in df.groupby("city", sort=False):
+            s = g[v].dropna()
+            if v == "dust":  # zero-inflated: derive the threshold from non-zero hours
+                s = s[s > 0]
+            q1, q3 = s.quantile([.25, .75])
+            thr = q3 + 3 * (q3 - q1)
+            n = int((s > thr).sum())
+            rows.append({"variable": v, "city": city, "p99": s.quantile(.99),
+                         "max": s.max(), "threshold_Q3+3IQR": thr,
+                         "n_above": n, "%_above": 100 * n / len(g)})
+    if rows:
+        out.append("\n**Unusually high values (per-city rule: value > Q3 + 3·IQR; dust uses non-zero hours only)**\n\n"
+                   + md_table(pd.DataFrame(rows)))
+    return "\n".join(out) + "\n"
+
+
+def main():
+    C.DOCS_DIR.mkdir(parents=True, exist_ok=True)
+    meta = json.loads((C.RAW_DIR / "collection_metadata.json").read_text(encoding="utf-8"))
+
+    grid = []
+    for kind in ("air_quality", "weather"):
+        for city, m in meta[kind]["cities"].items():
+            grid.append({"dataset": kind, "city": city,
+                         "requested_lat": m["requested"]["latitude"],
+                         "requested_lon": m["requested"]["longitude"],
+                         "grid_lat": m["grid_cell"]["latitude"],
+                         "grid_lon": m["grid_cell"]["longitude"]})
+
+    parts = [
+        "# Raw data inspection summary\n",
+        f"_Generated by `scripts/02_inspect_raw.py`. Data retrieved {meta['retrieved_at_utc']}; "
+        f"period {meta['period_utc'][0]} to {meta['period_utc'][1]} (UTC)._\n",
+        "## Requested coordinates vs. model grid cell\n",
+        pd.DataFrame(grid).to_markdown(index=False, floatfmt=".4f") + "\n",
+        inspect("air_quality", C.AQ_VARS, meta["air_quality"]["units"]),
+        inspect("weather", C.WEATHER_VARS, meta["weather"]["units"]),
+    ]
+    path = C.DOCS_DIR / "data_inspection_summary.md"
+    path.write_text("\n".join(parts), encoding="utf-8")
+    print(f"Wrote {path}")
+
+
+if __name__ == "__main__":
+    main()
